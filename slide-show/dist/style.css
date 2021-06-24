@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.overlay {
+  z-index: 1 !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+section {
+  font-family: "Lato";
+  color: #34495e;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #16a085;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  font-family: sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  font-size: 1.6rem;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-family: "Lato";
+}
+
+.nav-link,
+.navbar-brand {
+  color: #34495e !important;
+}
+
+.nav a:hover {
+  color: #16a085;
+}
+
+.reveal .controls,
+.card-title,
+.progress,
+.text-success {
+  color: #16a085 !important;
+}
+
+.float {
+  animation: float 1s ease-in-out alternate infinite;
+  color: #16a085;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(1rem);
+  }
+}
